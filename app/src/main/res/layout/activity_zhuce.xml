@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context="ranjiajie.bwie.com.ranjiajie20171221.Zhuce">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="注册"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/zc_name"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="请输入手机号"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/zc_pass"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="请输入密码"
+        />
+    <Button
+        android:id="@+id/zhuce"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="注册"
+        />
+</LinearLayout>

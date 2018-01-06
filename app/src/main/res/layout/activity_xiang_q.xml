@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ranjiajie.bwie.com.ranjiajie20171221.XiangQ">
+    <com.youth.banner.Banner
+        android:layout_weight="1"
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.youth.banner.Banner>
+    <TextView
+        android:layout_weight="3"
+        android:id="@+id/xq_price"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_weight="3"
+        android:id="@+id/xq_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/jiaru"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="加入购物车"
+            />
+    </LinearLayout>
+</LinearLayout>
